@@ -15,6 +15,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Domain", "03 - Domain"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - Infrastructure", "04 - Infrastructure", "{294730D2-45C4-42D8-BAAF-15AB4A278F44}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebMotors.Application", "src\WebMotors.Application\WebMotors.Application.csproj", "{4EAB161A-D662-4B3D-AC08-6D21B8196875}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{BD02B970-3D81-4137-84D4-202FAB70ED89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD02B970-3D81-4137-84D4-202FAB70ED89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD02B970-3D81-4137-84D4-202FAB70ED89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EAB161A-D662-4B3D-AC08-6D21B8196875}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EAB161A-D662-4B3D-AC08-6D21B8196875}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EAB161A-D662-4B3D-AC08-6D21B8196875}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EAB161A-D662-4B3D-AC08-6D21B8196875}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +38,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{DE60AE55-716F-4685-A1B9-B54CCAFF8301} = {B1C50BE4-C972-49AE-A48C-625C553AE9EC}
 		{BD02B970-3D81-4137-84D4-202FAB70ED89} = {DE60AE55-716F-4685-A1B9-B54CCAFF8301}
+		{4EAB161A-D662-4B3D-AC08-6D21B8196875} = {8005CE68-B8D7-4917-B8F2-3C2DB82D4084}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7199C46B-AF77-43C8-8A91-5F94B0B1EC70}
